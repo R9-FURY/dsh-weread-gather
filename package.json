@@ -4,16 +4,9 @@
   "description": "数字书房（本地定制版）— 微信读书书架、文章收藏、笔记与想法的私人书房：Markdown 导出、增量同步、强制重抓与版本对比。",
   "type": "module",
   "license": "MIT",
+  "private": true,
   "author": "fountainhead-gq",
   "icon": "icon.svg",
-  "homepage": "https://github.com/fountainhead-gq/dsh-weread-gather#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fountainhead-gq/dsh-weread-gather.git"
-  },
-  "bugs": {
-    "url": "https://github.com/fountainhead-gq/dsh-weread-gather/issues"
-  },
   "keywords": [
     "dsh",
     "dsh-plugin",
@@ -39,7 +32,10 @@
     "locale/zh.json",
     "icon.svg",
     "README.md",
-    "LICENSE"
+    "README-LOCAL.md",
+    "LICENSE",
+    "toolkit",
+    "upstream"
   ],
   "dsh": {
     "engines": {
@@ -52,13 +48,5 @@
       "platform": "web",
       "immediately": true
     }
-  },
-  "scripts": {
-    "check": "node scripts/check.cjs",
-    "smoke": "node scripts/render-smoke.cjs",
-    "test:export": "node scripts/export-selftest.cjs"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
   }
 }
