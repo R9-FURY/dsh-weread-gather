@@ -1,0 +1,24 @@
+# 运行时数据与密钥：绝不入库
+toolkit/config.json
+toolkit/credentials.json
+toolkit/credentials.json.expired
+toolkit/state.json
+toolkit/pending.json
+toolkit/login-qr.gif
+toolkit/login-url.txt
+toolkit/.cache/
+toolkit/articles/
+toolkit/index.md
+
+# 一次性探测脚本与抓包产物
+toolkit/probe*.mjs
+toolkit/weflow.mjs
+toolkit/export-html.mjs
+toolkit/*.html
+toolkit/*.json
+!toolkit/config.example.json
+
+# 本地工具
+.tools/
+node_modules/
+*.log
